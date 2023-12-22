@@ -1,0 +1,37 @@
+body {
+    background-color: #F6F4F3;
+    margin: 0px;
+    margin-left: 10px;
+    color: #0E0806;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'EB Garamond', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0E0806;
+}
+
+a:visited {
+    color: #0E0806;
+}
+
+a:hover {
+    color: #00A5E0;
+}
+
+#header {
+    margin-top: -24px;
+    font-size: 72px;
+    text-align: center;
+    position: fixed;
+    margin-left: 35%;
+}
+
+div {
+    background-color: aqua;
+    height: 2500px;
+}

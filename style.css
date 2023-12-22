@@ -2,33 +2,45 @@ body {
     background-color: #F6F4F3;
     margin: 0px;
     margin-left: 10px;
-}
-
-h1, h2, h3, p, a, table {
-    color: #0E0806;
-}
-
-a {
     color: #0E0806;
     text-decoration: none;
 }
 
+h1, h2, h3 {
+    font-family: 'EB Garamond', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0E0806;
+}
 
 .enemies {
     color: #A64253;
+}
+
+.paintings {
+    img {
+        width: 100%;
+    }
 }
 
 #cioran:hover {
     height: 0px;
 }
 
+a:visited {
+    color: #0E0806;
+}
+
 a:hover {
     color: #00A5E0;
 }
 
+
 #abyss {
     background-color: #0E0806;
-    height: 200px;
+    height: 1400px;
     width: 100%;
     margin-left: -10px;
     margin-right: 0px;
@@ -39,7 +51,16 @@ a:hover {
     img {
         display: block;
         height: 100px;
-        opacity: 1%;
+        opacity: 2%;
     }
+}
+
+#shop {
+    font-size: 72px;
+    display: block;
+    font-family: 'EB Garamond', serif;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 50px;
 }
 
