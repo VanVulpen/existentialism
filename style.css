@@ -1,0 +1,45 @@
+body {
+    background-color: #F6F4F3;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+h1, h2, h3, p, a, table {
+    color: #0E0806;
+}
+
+a {
+    color: #0E0806;
+    text-decoration: none;
+}
+
+
+.enemies {
+    color: #A64253;
+}
+
+#cioran:hover {
+    height: 0px;
+}
+
+a:hover {
+    color: #00A5E0;
+}
+
+#abyss {
+    background-color: #0E0806;
+    height: 200px;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: 0px;
+    border-right: solid 10px #0E0806;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        display: block;
+        height: 100px;
+        opacity: 1%;
+    }
+}
+
